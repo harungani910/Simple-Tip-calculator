@@ -22,3 +22,8 @@ for (var i = 0; i < tips.length; i++) {
     console.log(tips[i]);
 };
 
+var finalBills = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+for (var j = 0; j < finalBills.length; j++) {
+    console.log(finalBills[j]);
+}
+
